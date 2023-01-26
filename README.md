@@ -8,6 +8,9 @@ implement it better, because our sole member lacks experience and skills.
 ##Team members:
 Oktawian Filipkowski
 
+##
+Complete bot resides in naibot.ipynb file, there is also video presentation bot.mp4
+
 ## Covered topics:
 This chatbot is semi-capable of discussion about few topics:
 - animals
