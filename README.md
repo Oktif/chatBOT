@@ -5,6 +5,9 @@ Goal of this project is to create bilingual chatbot, which will be capable of ha
 Since our team consist of one member, it doesnt need to know broad range of topics (or to be more precise, in given timeframe it's impossible to
 implement it better, because our sole member lacks experience and skills.
 
+###Team members:
+Oktawian Filipkowski
+
 ## Covered topics:
 This chatbot is semi-capable of discussion about few topics:
 - animals
