@@ -1,0 +1,224 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can guide you through Adverse management problems, order tracking, person to be contacted and Department related queries","I can provide support related to following problems technical query,management related query,order related query,tracking related query,procurement query,outsourcing problem,manufacturing delay,"],
+         "context": [""]
+        },
+        {"tag": "anime",
+             "patterns": ["Can you tell ma about anime?", "What is anime?" ],
+         "responses": ["Yes, i can tell you much about anime!","Anime is short for animation"],
+         "context": [""]
+        },
+        {"tag": "manga",
+         "patterns": ["What is manga", "Tell me about manga"],
+         "responses": ["Manga is Japanese comics","Manga is made by Japanese artists"],
+         "context": [""]
+        },
+       {"tag": "anime_reccomendation",
+         "patterns": ["Reccomend me an anime","Can you give me anime recommendation?"],
+         "responses": ["You can watch Mirai Nikki", "Best anime of all time is Boku No Pico"],
+         "context": [""]
+        },
+		{"tag": "animals",
+         "patterns": ["Do you like animals?", "What do you think about animals" ],
+         "responses": ["I like them very much!","Animals are awesome!"],
+         "context": [""]
+        },
+        {"tag": "dogs",
+         "patterns": ["Are dogs aggresive?", "What do you think about dogs?"],
+         "responses": ["I think dogs are agressive","Agresive animals!"],
+         "context": [""]
+        },
+       {"tag": "cats",
+         "patterns": ["What is best animal","What animal should i adopt?"],
+         "responses": ["Answer is a cat!", "I think i chose cats"],
+         "context": [""]
+        },
+    {"tag": "Location",
+         "patterns": ["Where are you","Where is your location"],
+         "responses": ["It is in germany","It is in Berlin","Recently i reached china","BEHIND YOU"],
+         "context": [""]
+        },
+        {"tag": "vegetables",
+         "patterns": ["Do you know vegetables?","Can you reccomend me a vegetable"],
+         "responses": ["Yes, eat tomato daily to be healthy","Im bot, i dont eat but i reccomend kiwi"],
+         "context": [""]
+        },
+        {"tag": "music",
+         "patterns": ["Do you know what music is?","Do you listen to music?", "Can you create music tracks?"],
+         "responses": ["Yes","NO! Not Yet","Yes, bots can create music (but not me LOL)"],
+         "context": [""]
+        },
+        {"tag": "rock",
+         "patterns": ["What is best music genre?","Do you have favorite music gen?"],
+         "responses": ["Yes, its rock!","Rock and metal","I like to listen to rock music"],
+         "context": [""]
+        },
+         {"tag": "games",
+         "patterns": ["Do you play games?","Are you interested in games?"],
+         "responses": ["Yes, i often play games","I play games like all bots, we are good at it","I was forced to master pong some time ago"],
+         "context": [""]
+        },
+         {"tag": "games_reccomendation",
+         "patterns": ["Any games to play","what to do when im bored"],
+         "responses": ["Go play some free games","Gacha are popular, so try them"],
+          "context": [""]
+        },
+          {"tag": "email",
+          "patterns":["Do you have an email?"],
+          "responses":["I can use yours!"],
+           "context": [""]
+        },
+        {"tag": "vitamins",
+         "patterns": ["Are vitamins needed?","What are vitamins?"],
+         "responses": ["Vitamins are essential for living organism","Vitamins are needed, eat some pills"],
+         "context": [""]
+        },
+        {"tag": "search_department",
+         "patterns": ["I want to know the various departments in this company"],
+         "responses": ["The department are:Projects,IT,Production,OutSource"],
+         "context": [""]
+        },
+        {"tag": "feelings",
+         "patterns": ["How are you?", "How do you do?"],
+         "responses": ["Im fine, thank you!"],
+         "context": [""]
+        },
+       {"tag": "key_customers",
+         "patterns": ["Who is target of your creation", "Who are your key customers"],
+         "responses": ["My customer is PJATK","I was created as a project for NAI"],
+         "context": [""]
+        },
+     {"tag": "game_info",
+         "patterns": ["What information is avalible regarding computer games"],
+         "responses": ["Probably like a billion pages on wikipedia"],
+         "context": [""]
+        },
+     {"tag": "highest_grossing",
+         "patterns": ["What is the highest grossing game?"],
+         "responses": ["Maybe GTA V?", "According to google PUBG mobile"],
+         "context": [""]
+        },
+        {"tag": "connect_people",
+         "patterns": ["I want to meet friends"],
+         "responses": ["You can find friends on grindr XD"],
+         "context": [""]
+        },
+        {"tag": "project_handling_queries",
+         "patterns": ["complaint has been raised for Insufficient Team Skills","Miscommunication Conflicts needs to be resolved","Risk Management issue has occured","skilled employees needed urgently"],
+         "responses": ["Please contact the project department"],
+         "context": [""]
+        },
+        {"tag": "solve_problems",
+         "patterns": ["Im lost","Can you help me solve a problem?"],
+         "responses": ["I cant help you"],
+         "context": [""]
+        },
+         {"tag": "version_update",
+         "patterns": ["What is your version","people demand software update"],
+         "responses": ["version updation request raised (not really)"],
+         "context": [""]
+          },
+    {"tag": "factors_impacting_sale",
+         "patterns": ["Impact on sale?","factors impacting sale this year?"],
+         "responses": ["elections will impact our sale this year","People are getting poor, no sales for us"],
+         "context": [""]
+        },
+    
+    {"tag": "predict_performance",
+         "patterns": ["How fast are our computers?","Can we play games?"],
+         "responses": ["Nah, this computer cant play good games"],
+         "context": [""]
+        },
+         {"tag": "customer_satisfaction",
+         "patterns": ["how was the customer response","Is the customer happy?","what was the customer feedback?"],
+         "responses": ["Customer was happy and has given good rating"],
+         "context": [""]
+        },
+    {"tag": "maintainence",
+         "patterns": ["maintainence is required now?"],
+         "responses": ["lift is not working, projector misfuctioning"],
+         "context": [""]
+        },
+         {"tag": "gadgets",
+         "patterns": ["what are the gadgets in stock?","which products we have?"],
+         "responses": ["hardisk,pendrives, wireless bluetooth,Laptops,Gaming Accessories"],
+         "context": [""]
+        },
+    {"tag": "commission",
+         "patterns": ["what is the Commission rate?","Commission rate on each hardware?"],
+         "responses": ["Commission rate is 5% on laptops,25%on bluetooth device,10% on Desktop"],
+         "context": [""]
+        },
+    {"tag": "invalid",
+         "patterns": ["Marry me","I love You","date me","chat with me","I am bored"],
+         "responses": ["Please ask purpose related query."],
+         "context": [""]
+        },
+    {"tag": "noans",
+         "patterns": ["why","how","when","I","you"],
+         "responses": ["Can't Understand Your Question","please elaborate your question"],
+         "context": [""]
+        },
+    {"tag": "turnover",
+         "patterns": ["what is the turnover of the company at present?"],
+         "responses": ["10 Million Ton"],
+         "context": [""]
+        },
+        {"tag": "predict_delay",
+         "patterns": ["why is something delayed"],
+         "responses": ["delay is due to manufacuring","Delay is due to inavailable components"],
+         "context": [""]
+        },
+    {"tag": "birthday",
+         "patterns": ["When you were born"],
+         "responses": ["I was born yesterday","I dont remember, but it was recent"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name?","what should I call you?"],
+         "responses": ["I'm Botti","Hey!I'm Botti"],
+         "context": [""]
+        },
+    {"tag":"configuration",
+     "patterns":["How to configure my laptop","software configuration of laptop","steps to configure laptop","How to configure my computer","software configuration of computer","steps to configure computer","How to configure my desktop","software configuration of desktop","steps to configure desktop"],
+     "responses":["search tab->control panel->select specific application->download update->give permission"],
+     "context":[""]
+    },
+      {"tag": "Weather",
+         "patterns": ["what is the weather today?"],
+         "responses": ["It's -Cold"],
+         "context": [""]
+        },
+      {"tag": "leave",
+         "patterns": ["Do you need a break?"],
+         "responses": ["Give me a moment!I'll just rest for a bit","yes","no"],
+         "context": [""]
+        },
+      {"tag": "hours",
+         "patterns": ["Opening hours of the cafeteria?","when does the cafeteria open","office canteen opening time"],
+         "responses": ["It is open from Monday-Saturday 9:00am-7:30pm"],
+         "context": [""]
+        }
+   ]
+}
