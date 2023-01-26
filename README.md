@@ -37,3 +37,8 @@ More information will be made avalible in presentation.
 
 
 
+sidenote:
+I started working in main.py but for some reason i was unable to install Tensorflow on my pc, thats why i moved to google collab.
+Since creating imports etc. is not as intuitive on collab i ditched that file, so its obsolete.
+It contains early trial version of bot.
+I will try to make full version later, when i manage to fix my pc.
